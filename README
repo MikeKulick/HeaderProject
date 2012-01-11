@@ -1,0 +1,10 @@
+Here is the README section of this project. 
+Started Dec. 15th, my attempt at creating the coding for the State News website's main header. 
+Currently it is without any style formatting or CSS. 
+Now available as a public repository on Github (as of 1/11/12)
+
+Changes Log below:
+1.11
+Edited links into lists, and nested list
+Separated header and navigation sections
+Cleaned up semantics of some coding. 
