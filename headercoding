@@ -1,9 +1,8 @@
 
 <html>  
-<header 
-<div class="foo" id="header"/> 
-
-	<div class="font"> 
+<header> 
+<div class="top bar"> 
+	<div class="date"> 
 	Thursday December 15, 2011 | Since 1909 | East Lansing, MI
 	</div>
 
@@ -18,14 +17,17 @@
  
 </div> 
 
-<div class="logo" id="whatever">
-theStateNews.com Logo 
+<div class="everypage">
+	<div class="logo">
+	[theStateNews.com Logo] 
 
-<weather tag> Rain, 43 F | 6 C 
-	<a href="#7 Day Forecast"> 7 Day Forecast </a>
-<button> Twitter  </button>
-<button> Facebook </button>
-<button> RSS Feed </button>
+	<div class="weather"> 
+		Rain, 43 F | 6 C 
+		<a href="#7 Day Forecast"> 7 Day Forecast </a>
+		<button> Twitter  </button>
+		<button> Facebook </button>
+		<button> RSS Feed </button>
+	</div> 	
 </div>
 
 <div class="Navigation">
