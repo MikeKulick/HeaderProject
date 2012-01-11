@@ -30,6 +30,17 @@ theStateNews.com Logo
 
 <div class="Navigation">
 	<a href="#Front Page"> Front Page | </a>
+	<a href="#News"> News | </a> 
+	<a href="#Sports"> Sports |  </a> 
+	<a href="#Opinion"> Opinion |  </a> 
+	<a href="#Features"> Features |  </a> 
+	<a href="#Blogs"> Blogs |  </a>
+	<a href="#Multimedia"> Multimedia  | </a>
+
+	<button> Search Box </button> 
+	
+	</div>
+	
 		<div class="subnavigation">
 			<a href="#Updated 1 hour ago"> Updated 1 hour ago  | </a>
 			<a href="#Puzzles"> Puzzles  | </a>
@@ -40,18 +51,6 @@ theStateNews.com Logo
 			<a href="Advanced Search"> Advanced Search | </a> 
 			<a href="Archives"> Archives </a> 
 		</div>
-	<a href="#News"> News | </a> 
-	<a href="#Sports"> Sports |  </a> 
-	<a href="#Opinion"> Opinion |  </a> 
-	<a href="#Features"> Features |  </a> 
-	<a href="#Blogs"> Blogs |  </a>
-	<a href="#Multimedia"> Multimedia  | </a>
-		
-	<div class="search" id="whatever"> 
-
-	Search Box
-	
-	</div>
 
 </div>
 
