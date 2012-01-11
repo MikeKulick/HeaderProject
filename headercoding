@@ -1,0 +1,59 @@
+
+<html>  
+<header 
+<div class="foo" id="header"/> 
+
+	<div class="font"> 
+	Thursday December 15, 2011 | Since 1909 | East Lansing, MI
+	</div>
+
+	<div class="links"> 
+		<a href="advertise"> Advertise </a> |
+		<a href="Classifieds"> Classifieds </a>|
+		<a href="Puzzles"> Puzzles </a> | 
+		<a href="Employment"> Employment </a> | 
+		<a href="Contact Us"> Contact Us </a> |
+		<a href="Subscriptions"> Subscriptions </a>
+	</div>
+ 
+</div> 
+
+<div class="logo" id="whatever">
+theStateNews.com Logo 
+
+<weather tag> Rain, 43 F | 6 C 
+	<a href="#7 Day Forecast"> 7 Day Forecast </a>
+<button> Twitter  </button>
+<button> Facebook </button>
+<button> RSS Feed </button>
+</div>
+
+<div class="Navigation">
+	<a href="#Front Page"> Front Page | </a>
+		<div class="subnavigation">
+			<a href="#Updated 1 hour ago"> Updated 1 hour ago  | </a>
+			<a href="#Puzzles"> Puzzles  | </a>
+			<a href="#Classifieds"> Classifieds |  </a>
+			<a href="#Religioius Guide"> Religious Guide | </a>
+			<a href="#Mobile"> Mobile |  </a>
+			<a href="Housing Guide"> Housing Guide | </a>
+			<a href="Advanced Search"> Advanced Search | </a> 
+			<a href="Archives"> Archives </a> 
+		</div>
+	<a href="#News"> News | </a> 
+	<a href="#Sports"> Sports |  </a> 
+	<a href="#Opinion"> Opinion |  </a> 
+	<a href="#Features"> Features |  </a> 
+	<a href="#Blogs"> Blogs |  </a>
+	<a href="#Multimedia"> Multimedia  | </a>
+		
+	<div class="search" id="whatever"> 
+
+	Search Box
+	
+	</div>
+
+</div>
+
+</header> 
+</html> 
