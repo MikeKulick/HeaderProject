@@ -1,0 +1,27 @@
+<html>
+<head>
+<style type="text/css">
+
+top box {
+	text-align: left;
+	float: left;
+	position: absolute;
+	border-color: #a8a8a8;
+	border-width: 2px;
+	padding: 4px;
+	margin: 1px;
+	height: 15px;
+	width: 100%;
+	background-position: 1px 1px;
+	background-color: #6e6e6e;
+	color: white;
+	word-break: normal;
+	word-spacing: 3px;
+	line-height: 1px;
+	font-size: 11px;
+	font-family: sans-serif;
+}
+
+</style>
+</head>
+</html>
