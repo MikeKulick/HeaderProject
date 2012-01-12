@@ -1,0 +1,70 @@
+.top {
+	float: top;
+	height: 20px;
+	width: 1000px;
+	
+	background-color: #6e6e6e;
+	font-size: 13px;
+	font-family: sans-serif;
+	color: white;
+	word-break: normal;
+	word-spacing: 3px;
+	line-height: 10px;
+	border-style: solid;
+	border-color: #cccccc;
+	border-width: 2px;
+	padding: 5px 5px;
+}
+
+.top .date{
+	position: absolute
+	float: left
+	left: 50%
+	width: 50%
+
+}
+
+.top .topheader {
+	color: white;
+	float: right;
+	float: top;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	li 
+	{
+	float: left;
+	display: inline;
+	}
+	a {
+	display: none
+	width: 20px 
+	}
+
+
+}
+
+#topsites {
+background-color: green;
+color: white 
+	ul
+	{
+	list-style-type: none;
+	}
+}
+.everypage 
+{
+	color: white
+	background-color: black 
+}
+.everypage .weather 
+{ 
+	color: white
+	float: right
+	
+
+}
+
+a:link {
+color: white
+}
