@@ -1,20 +1,29 @@
+
+a:link {color:white;}    /* unvisited link */
+a:visited {color:white;} /* visited link */
+
+body
+{
+	background-color: black;
+	font-family: sans-serif;
+
+}
+
 .top 
 {
 	float: top;
-	height: 20px;
+	height: 15px; 
 	width: 1000px;
-	
 	background-color: #6e6e6e;
 	font-size: 13px;
-	font-family: sans-serif;
 	color: white;
 	word-break: normal;
 	word-spacing: 3px;
 	line-height: 10px;
 	border-style: solid;
 	border-color: #cccccc;
-	border-width: 2px;
-	padding: 5px 5px;
+	border-width: 1px;
+	padding: 2px 5px;
 }
 
 .top .date{
@@ -22,7 +31,7 @@
 	float: left;
 	left: 50%;
 	width: 50%;
-
+	
 }
 
 .top .topheader 
@@ -35,40 +44,66 @@
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-li 
-	{
-	display: inline
-	float: left;
-	}
-	a {
-	display: none
-	width: 20px 
-	}
-
-
 }
-
-#topsites {
-background-color: #339966;
-color: white 
-	ul
-	{
-	list-style-type: none;
-	}
-}
+	
 .everypage 
 {
-	color: white
-	background-color: black 
+	background-color: black;
+	color: white;
+	height: 55px; 
+	width: 1014px; 
+	
+}
+.everypage h1
+{ 	float: left; 
+	left: 50%;
+	width: 50%;
 }
 .everypage .weather 
 { 
-	color: white
-	float: right
-	
-
+	float: right;
+	float: bottom;
+	right: 45%;
+	width: 45%;
 }
 
-a:link {
-color: white
+
+
+.topsites
+{
+	width: 1014px;
+	height: 150px; 
+	background-color: #006633;
+	color: white; 
+
+ul 
+{
+	list-style-type: none;
+	margin: 5px 0px;
+	padding: 0;
+a:link {text-decoration:none;}    /* unvisited link */
+a:visited {text-decoration:none;} /* visited link */
+a:hover {text-decoration:underline;}   /* mouse over link */
+a:active {text-decoration:underline;}  /* selected link */}	
+
+
+	
+}
+li
+{
+	display: inline;
+	}
+
+.topsites #topnav
+{
+
+background-color: #00333; 
+}
+
+.topsites #nav 
+{
+float: left;
+float: top;
+background-color: #003300;
+
 }
