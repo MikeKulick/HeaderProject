@@ -1,4 +1,5 @@
-.top {
+.top 
+{
 	float: top;
 	height: 20px;
 	width: 1000px;
@@ -18,20 +19,23 @@
 
 .top .date{
 	position: absolute
-	float: left
-	left: 50%
-	width: 50%
+	float: left;
+	left: 50%;
+	width: 50%;
 
 }
 
-.top .topheader {
+.top .topheader 
+{
 	color: white;
 	float: right;
 	float: top;
+	right: 50%;
+	width: 50%;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	li 
+li 
 	{
 	display: inline
 	float: left;
@@ -45,7 +49,7 @@
 }
 
 #topsites {
-background-color: green;
+background-color: #339966;
 color: white 
 	ul
 	{
