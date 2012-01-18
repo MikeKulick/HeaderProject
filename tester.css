@@ -1,7 +1,8 @@
-
-a:link {color:white;}    /* unvisited link */
-a:visited {color:white;} /* visited link */
-
+a:link {text-decoration:none;}    /* unvisited link */
+a:visited {text-decoration:none;} /* visited link */
+a:hover {text-decoration:underline;}   /* mouse over link */
+a:active {text-decoration:underline;}  /* selected link */
+a:link {color: white}
 body
 {
 	background-color: black;
@@ -38,12 +39,13 @@ body
 	color: white;
 	float: right;
 	float: top;
-	right: 50%;
-	width: 50%;
+	right: 45%;
+	width: 45%;
 	margin: 0;
 	padding: 0;
+	text-decoration: underline;
 }
-	
+
 .everypage 
 {
 	background-color: black;
@@ -54,9 +56,10 @@ body
 
 .everypage h1
 { 	
+	position: relative; 
 	float: left; 
+	float: top;
 	height: auto;
-	
 }
 
 .everypage .weather 
@@ -76,17 +79,18 @@ body
 	border-style: solid;
 	border-color: #527A7A;
 	border-width: 2px;
-	margin-top: 5px; 
+	margin-top: 10px;
 }
 
 .topsites #topnav
 {
 	position: relative;
 	top: relative;
-	width: 100%;
+	width: 1014px;
 	left: 0;
 	padding: 0;
-	margin: 0;
+	margin-left: 2px; 
+	
 }
 
 .topsites #topnav ul
@@ -107,7 +111,7 @@ body
 .topsites #topnav li a
 {
 	display: inline;
-	background: #47A375;
+	background: #529B6A;
 	height: 2em;
 	line-height: 2em;
 	float: left;
@@ -115,11 +119,6 @@ body
 	display: compact;
 	color: white;
 	text-align: center;	
-	a:link {color:white;}    /* unvisited link */
-	a:visited {color:white;} /* visited link */
-	a:hover {text-decoration: underline;} /*mouse over link*/ 
-	a:active {text-decoration: underline;} /*selected link*/ 
-
 }
 
 
@@ -127,18 +126,18 @@ body
 {
 	position: relative;
 	top: relative;
-	width: 100%;
-	a:link {text-decoration: none;} /*unvisited link*/ 
-	a:visited {text-decoration: none;} /*visited link*/ 
-	a:hover {text-decoration: underline;} /*mouse over link*/ 
-	a:active {text-decoration: underline;} /*selected link*/ 
-
+	float: left;
+	width: 1014px;
+	left: 0;
+	padding: 0;
+	margin-left: 2px; 
+	margin-top: 10px;
 }
 
 .topsites #nav li a 
 {
 	display: inline;
-	background: #003300;
+	background: #396C4A;
 	height: 2em;
 	line-height: 2em;
 	float: left;
