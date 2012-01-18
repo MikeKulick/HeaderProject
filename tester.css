@@ -55,6 +55,8 @@ body
 .everypage h1
 { 	
 	float: left; 
+	height: auto;
+	
 }
 
 .everypage .weather 
@@ -74,33 +76,34 @@ body
 	border-style: solid;
 	border-color: #527A7A;
 	border-width: 2px;
+	margin-top: 5px; 
 }
 
 .topsites #topnav
 {
 	position: relative;
-	top:0;
-	left: 0;
+	top: relative;
 	width: 100%;
-	
+	left: 0;
+	padding: 0;
+	margin: 0;
 }
 
 .topsites #topnav ul
 {
-	position: top; 
-	float: left;
+	list-style-type: none;
 	padding: 0;
-	margin: 0;
+	margin: 0;	
 }	
 
 .topsites #topnav li 
 {
-	list-style-type: none;
-	position: top; 
-	float: left;
-	margin: 0 0.15em; 
-		
+	display: inline; 
+	width: 100%;
+	top: 2px;
+	left: 2px;	
 }
+
 .topsites #topnav li a
 {
 	display: inline;
@@ -108,10 +111,9 @@ body
 	height: 2em;
 	line-height: 2em;
 	float: left;
-	width: 9em;
-	display: block;
+	width: 6em;
+	display: compact;
 	color: white;
-	text-decoration: none;
 	text-align: center;	
 	a:link {color:white;}    /* unvisited link */
 	a:visited {color:white;} /* visited link */
@@ -126,6 +128,11 @@ body
 	position: relative;
 	top: relative;
 	width: 100%;
+	a:link {text-decoration: none;} /*unvisited link*/ 
+	a:visited {text-decoration: none;} /*visited link*/ 
+	a:hover {text-decoration: underline;} /*mouse over link*/ 
+	a:active {text-decoration: underline;} /*selected link*/ 
+
 }
 
 .topsites #nav li a 
@@ -135,13 +142,8 @@ body
 	height: 2em;
 	line-height: 2em;
 	float: left;
-	width: 9em;
-	display: block;
+	width: 8em;
 	color: white;
 	text-align: center;	
-	a:link {text-decoration: none;} /*unvisited link*/ 
-	a:visited {text-decoration: none;} /*visited link*/ 
-	a:hover {text-decoration: underline;} /*mouse over link*/ 
-	a:active {text-decoration: underline;} /*selected link*/ 
-
+	
 }
