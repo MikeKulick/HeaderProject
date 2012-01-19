@@ -21,9 +21,7 @@ body
 	word-break: normal;
 	word-spacing: 3px;
 	line-height: 10px;
-	border-style: solid;
-	border-color: #cccccc;
-	border-width: 1px;
+	border: 1px solid gray;
 	margin: 2px 2px;
 	padding: 2px 2px;
 }
@@ -92,7 +90,8 @@ body
 	position: relative;
 	width: 1004px;
 	padding: 0;
-	margin: 0; 	
+	margin: 0;
+	border: 0; 	
 }
 .topsites #topnav ul 
 {
@@ -116,6 +115,7 @@ body
 	position: relative;
 	margin: 0;
 	padding: 0;
+	border-top: 0;
 	background: #396C4A;
 	height: auto;
 	width: auto;
@@ -128,6 +128,7 @@ body
 	border-bottom: 7px solid #396C4A;
 
 }
+
 
 .topsites #topnav li#news a,
 .topsites #topnav li#sports a,
