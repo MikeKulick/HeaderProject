@@ -86,17 +86,14 @@ body
 	padding: 0;
 }
 
+
 .topsites #topnav
 {
 	position: relative;
 	width: 1004px;
-	height: 35px;
 	padding: 0;
-	margin: 0; 
-	border-bottom: 1px solid gray; 
-	
+	margin: 0; 	
 }
-
 .topsites #topnav ul 
 {
 	list-style-type: none;
@@ -108,25 +105,29 @@ body
 
 {
 	display: inline; 
-	width: 90%;
-	top: 2px;
-	left: 2px;	
+	float: left;
+	margin: 0;
+	padding: 0; 
 }
 
 
-.topsites #topnav li#active a 
+.topsites #topnav li.active a 
 {
+	position: relative;
+	margin: 0;
+	padding: 0;
 	background: #396C4A;
 	height: auto;
 	width: auto;
-	border-bottom: 4px solid #396C4A
 	line-height: 2em;
 	color: white;
 	text-align: left;	
 	margin: 0;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-bottom: 7px solid #396C4A;
 
 }
-
 
 .topsites #topnav li#news a,
 .topsites #topnav li#sports a,
@@ -136,6 +137,7 @@ body
 .topsites #topnav li#multimedia a,
 .topsites #topnav li#search a 
 {
+	position: relative;
 	background: #529B6A;
 	float: left;
 	line-height: 2em;
@@ -145,20 +147,9 @@ body
 	padding-left: 5px;
 	padding-right: 5px;
 	height: auto;
-	position: relative;
+	
 }
 
-
-.topsites #subnav 
-{
-	position: relative;
-	width: 1004px;
-	height: 35px;
-	left: 0;
-	padding: 0;
-	margin-left: 2px; 
-	margin-top: 0;
-}
 
 .topsites #subnav li a
 {
