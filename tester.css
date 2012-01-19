@@ -11,6 +11,7 @@ body
 
 .top 
 {
+	position: static;
 	float: top;
 	height: 15px; 
 	width: 1000px;
@@ -23,7 +24,8 @@ body
 	border-style: solid;
 	border-color: #cccccc;
 	border-width: 1px;
-	padding: 2px 5px;
+	margin: 2px 2px;
+	padding: 2px 2px;
 }
 
 .top .date
@@ -60,6 +62,8 @@ body
 	float: left; 
 	float: top;
 	height: auto;
+	margin: 0;
+	padding: 5px 0px 0px 5px; 
 }
 
 .everypage .weather 
@@ -68,81 +72,108 @@ body
 	float: bottom;
 	right: 45%;
 	width: 45%;
+	padding-top: 10px;
 }
 
 .topsites
 {
-	width: 1014px;
-	height: 80px; 
+	width: 1005px;
+	height: 70px; 
 	background-color: green;
 	color: white; 
-	border-style: solid;
-	border-color: #527A7A;
-	border-width: 2px;
-	margin-top: 10px;
+	border: solid 2px #527A7A;
+	margin: 0;
+	padding: 0;
 }
 
 .topsites #topnav
 {
 	position: relative;
-	top: relative;
-	width: 1014px;
-	left: 0;
+	width: 1004px;
+	height: 35px;
 	padding: 0;
-	margin-left: 2px; 
+	margin: 0; 
+	border-bottom: 1px solid gray; 
 	
 }
 
-.topsites #topnav ul
+.topsites #topnav ul 
 {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;	
 }	
 
-.topsites #topnav li 
+.topsites #topnav li
+
 {
 	display: inline; 
-	width: 100%;
+	width: 90%;
 	top: 2px;
 	left: 2px;	
 }
 
-.topsites #topnav li a
+
+.topsites #topnav li#active a 
 {
-	display: inline;
-	background: #529B6A;
-	height: 2em;
+	background: #396C4A;
+	height: auto;
+	width: auto;
+	border-bottom: 4px solid #396C4A
 	line-height: 2em;
-	float: left;
-	width: 6em;
-	display: compact;
 	color: white;
-	text-align: center;	
+	text-align: left;	
+	margin: 0;
+
 }
 
 
-.topsites #nav 
+.topsites #topnav li#news a,
+.topsites #topnav li#sports a,
+.topsites #topnav li#opinion a,
+.topsites #topnav li#features a,
+.topsites #topnav li#blogs a,
+.topsites #topnav li#multimedia a,
+.topsites #topnav li#search a 
+{
+	background: #529B6A;
+	float: left;
+	line-height: 2em;
+	color: white;
+	text-align: left;	
+	width: auto;
+	padding-left: 5px;
+	padding-right: 5px;
+	height: auto;
+	position: relative;
+}
+
+
+.topsites #subnav 
 {
 	position: relative;
-	top: relative;
-	float: left;
-	width: 1014px;
+	width: 1004px;
+	height: 35px;
 	left: 0;
 	padding: 0;
 	margin-left: 2px; 
-	margin-top: 10px;
+	margin-top: 0;
 }
 
-.topsites #nav li a 
+.topsites #subnav li a
 {
 	display: inline;
-	background: #396C4A;
-	height: 2em;
-	line-height: 2em;
 	float: left;
-	width: 8em;
+	background: #396C4A;
+	height: auto;
+	width: auto;
+	padding-left: 5px;
+	padding-right: 5px;
+	line-height: 2em;
+	font-size: smaller;
 	color: white;
-	text-align: center;	
+	text-align: left;	
+	margin: 0;
 	
 }
+
