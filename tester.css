@@ -52,6 +52,8 @@ body
 	color: white;
 	height: 55px; 
 	width: 1014px; 
+	margin: 0;
+	padding: 0;
 }
 
 .everypage h1
@@ -61,7 +63,7 @@ body
 	float: top;
 	height: auto;
 	margin: 0;
-	padding: 5px 0px 0px 5px; 
+	padding: 15px 0px 0px 5px; 
 }
 
 .everypage .weather 
@@ -71,62 +73,49 @@ body
 	right: 45%;
 	width: 45%;
 	padding-top: 10px;
+	padding-bottom: 0;
 }
 
 .topsites
 {
 	width: 1005px;
-	height: 70px; 
+	overflow: auto;
 	background-color: green;
 	color: white; 
 	border: solid 2px #527A7A;
 	margin: 0;
 	padding: 0;
 }
-
-
+	
 .topsites #topnav
 {
 	position: relative;
-	width: 1004px;
+	width: 100%;
+	height: auto;
 	padding: 0;
 	margin: 0;
-	border: 0; 	
 }
-.topsites #topnav ul 
-{
-	list-style-type: none;
-	padding: 0;
-	margin: 0;	
-}	
 
 .topsites #topnav li
 
 {
-	display: inline; 
 	float: left;
+	list-style-type: none;
 	margin: 0;
-	padding: 0; 
+	padding: 0;
+	display: inline;
 }
 
 
 .topsites #topnav li.active a 
 {
 	position: relative;
-	margin: 0;
-	padding: 0;
-	border-top: 0;
 	background: #396C4A;
 	height: auto;
 	width: auto;
-	line-height: 2em;
 	color: white;
 	text-align: left;	
-	margin: 0;
-	padding-left: 5px;
-	padding-right: 5px;
-	border-bottom: 7px solid #396C4A;
-
+	border-top: 1px solid gray; 
 }
 
 
@@ -139,33 +128,30 @@ body
 .topsites #topnav li#search a 
 {
 	position: relative;
-	background: #529B6A;
+	display: inline;
 	float: left;
-	line-height: 2em;
-	color: white;
-	text-align: left;	
-	width: auto;
-	padding-left: 5px;
-	padding-right: 5px;
-	height: auto;
-	
+	background: #529B6A;
+	padding: 2px 5px 2px 5px;
+	margin: 0;
+		
 }
 
 
 .topsites #subnav li a
 {
+	position: absolute;
 	display: inline;
 	float: left;
 	background: #396C4A;
 	height: auto;
 	width: auto;
-	padding-left: 5px;
-	padding-right: 5px;
-	line-height: 2em;
+	padding: 2px 5px 2px 5px;
+	margin: 0;	
+	line-height: auto;
 	font-size: smaller;
 	color: white;
 	text-align: left;	
-	margin: 0;
+	
 	
 }
 
