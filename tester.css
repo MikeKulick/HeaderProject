@@ -79,31 +79,36 @@ body
 .topsites
 {
 	width: 1005px;
-	overflow: auto;
 	background-color: green;
 	color: white; 
 	border: solid 2px #527A7A;
 	margin: 0;
 	padding: 0;
+	height: 50px;
 }
 	
 .topsites #topnav
 {
 	position: relative;
 	width: 100%;
-	height: auto;
 	padding: 0;
 	margin: 0;
 }
 
-.topsites #topnav li
+.topsites ul#topnav  
+{
+	margin: 0;
+	padding: 0;
+}
+
+.topsites #topnav > li /*applies to everything in lists*/ 
 
 {
 	float: left;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	display: inline;
+	display: block;
 }
 
 
@@ -112,10 +117,16 @@ body
 	position: relative;
 	background: #396C4A;
 	height: auto;
-	width: auto;
+	width: 100%;
 	color: white;
-	text-align: left;	
-	border-top: 1px solid gray; 
+	text-align: center;	
+	border-top: 1px solid gray;
+	border-right: 1px solid gray;
+}
+
+.topsites #topnav li#frontpage 
+{
+	border: 5px solid #396C4A;
 }
 
 
@@ -133,25 +144,39 @@ body
 	background: #529B6A;
 	padding: 2px 5px 2px 5px;
 	margin: 0;
+	border: 1px solid white;
 		
 }
 
-
-.topsites #subnav li a
+.topsites #topnav > #search
 {
+	float:right;
+}
+
+#subnav {
+	background: red;
 	position: absolute;
+	top: 30px;
+	left: 0;
+}
+
+ul#subnav 
+{
+	list-style-type: none; 
+	margin: 0;
+	padding: 0;
+}
+
+#subnav > li 
+{
 	display: inline;
 	float: left;
-	background: #396C4A;
-	height: auto;
-	width: auto;
-	padding: 2px 5px 2px 5px;
-	margin: 0;	
-	line-height: auto;
-	font-size: smaller;
-	color: white;
-	text-align: left;	
-	
-	
+	text-size: smaller; 
 }
+
+#subnav li a
+{
+	padding: 2px 5px 2px 5px;
+}
+
 
