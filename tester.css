@@ -11,8 +11,7 @@ body
 
 .top 
 {
-	position: static;
-	float: top;
+	position: relative;
 	height: 15px; 
 	width: 1000px;
 	background-color: #6e6e6e;
@@ -22,8 +21,8 @@ body
 	word-spacing: 3px;
 	line-height: 10px;
 	border: 1px solid gray;
-	margin: 2px 2px;
 	padding: 2px 2px;
+	margin: 0;
 }
 
 .top .date
@@ -43,6 +42,10 @@ body
 	width: 45%;
 	margin: 0;
 	padding: 0;
+}
+
+.top .topheader a:link
+{
 	text-decoration: underline;
 }
 
@@ -76,6 +79,11 @@ body
 	padding-bottom: 0;
 }
 
+.everypage .weather a:link
+{
+	text-decoration: underline;
+}
+
 .topsites
 {
 	width: 1005px;
@@ -84,7 +92,7 @@ body
 	border: solid 2px #527A7A;
 	margin: 0;
 	padding: 0;
-	height: 50px;
+	height: 47px;
 }
 	
 .topsites #topnav
@@ -120,13 +128,12 @@ body
 	width: 100%;
 	color: white;
 	text-align: center;	
-	border-top: 1px solid gray;
-	border-right: 1px solid gray;
 }
 
 .topsites #topnav li#frontpage 
 {
-	border: 5px solid #396C4A;
+	padding: 4px 20px 4px 20px;
+	background: #396C4A;
 }
 
 
@@ -142,9 +149,8 @@ body
 	display: inline;
 	float: left;
 	background: #529B6A;
-	padding: 2px 5px 2px 5px;
+	padding: 4px 20px 4px 20px;
 	margin: 0;
-	border: 1px solid white;
 		
 }
 
@@ -154,9 +160,8 @@ body
 }
 
 #subnav {
-	background: red;
 	position: absolute;
-	top: 30px;
+	top: 28px;
 	left: 0;
 }
 
@@ -165,9 +170,10 @@ ul#subnav
 	list-style-type: none; 
 	margin: 0;
 	padding: 0;
+	border: 0;
 }
 
-#subnav > li 
+#subnav li 
 {
 	display: inline;
 	float: left;
@@ -177,6 +183,11 @@ ul#subnav
 #subnav li a
 {
 	padding: 2px 5px 2px 5px;
+}
+
+#subnav #smaller
+{
+	text-decoration: underline;
 }
 
 
